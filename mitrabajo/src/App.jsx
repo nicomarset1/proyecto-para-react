@@ -1,14 +1,13 @@
-import './App.css'
-import Header from './components/header/navegation-item'
-
+import NavBar from './components/NavBar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 function App() {
 
-
   return (
-<div>
-  <Header logo='MDp'/>
-</div>
+    <>
+    <NavBar/>
+    <ItemListContainer title='Catálogo'/>
+    </>
   )
 }
 

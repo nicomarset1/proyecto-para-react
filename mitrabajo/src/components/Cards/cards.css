@@ -1,0 +1,42 @@
+.cards{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28vh;
+    border: 1px solid #FFFD11;
+    border-radius: 25px;
+}
+
+.card-title{
+    margin: 10px 0;
+    color: #FFFD11;
+}
+
+.card-img{
+    width: 97%;
+    margin: 15px 0;
+}
+
+.card-desc{
+    width: 85%;
+}
+
+.card-price{
+    font-size: 23px;
+}
+
+.card-button{
+    margin-bottom: 30px;
+    background-color: black;
+    border: #FFFD11 1px solid;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.card-button:hover{
+    background-color: #FFFD11;
+    color: black;
+    transition: .5s;
+}

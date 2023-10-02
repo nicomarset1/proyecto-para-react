@@ -1,0 +1,17 @@
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.products{
+    background-color: black;
+    border: 1px solid #FFFD11;
+    padding: 30px;
+    border-radius: 30px;
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+}
