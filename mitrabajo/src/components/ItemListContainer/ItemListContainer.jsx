@@ -15,6 +15,8 @@ const ItemListContainer = (prop) => {
                 <Cards title={products[5].title} img={products[5].img} desc={products[5].desc} price={products[5].price} />
                 <Cards title={products[6].title} img={products[6].img} desc={products[6].desc} price={products[6].price} />
                 <Cards title={products[7].title} img={products[7].img} desc={products[7].desc} price={products[7].price} />
+                <Cards title={products[8].title} img={products[8].img} desc={products[8].desc} price={products[8].price} />
+                <Cards title={products[9].title} img={products[9].img} desc={products[9].desc} price={products[9].price} />
             </div>
         </div>
     )
